@@ -13,4 +13,4 @@ git add .
 git commit -m "new version"
 
 echo "push to remote repository"
-git push origin gh-pages
+git push origin master
