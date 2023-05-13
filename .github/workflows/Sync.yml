@@ -16,9 +16,9 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
         with:
           # 注意替换为你的 GitHub 源仓库地址
-          source-repo: https://github.com/ailibob/-gitee-pages-action.git
+          source-repo: git@github.com:ailibob/-gitee-pages-action.git
           # 注意替换为你的 Gitee 目标仓库地址
-          destination-repo: https://gitee.com/daiduotian001/you-zan-cloud.git
+          destination-repo: git@gitee.com:daiduotian001/you-zan-cloud.git
 
 
       - name: Build Gitee Pages
